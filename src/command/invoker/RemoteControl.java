@@ -1,6 +1,6 @@
-package command.receiver.invoker;
+package command.invoker;
 
-import command.receiver.commandobjects.CommandBase;
+import command.commandobjects.CommandBase;
 
 public class RemoteControl {
     CommandBase onCommand;

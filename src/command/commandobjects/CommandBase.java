@@ -1,4 +1,4 @@
-package command.receiver.commandobjects;
+package command.commandobjects;
 
 public interface CommandBase {
     void execute();

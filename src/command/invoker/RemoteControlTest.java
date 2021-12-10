@@ -1,12 +1,12 @@
-package command.receiver.invoker;
+package command.invoker;
 
+import command.commandobjects.CarMoveCommand;
+import command.commandobjects.CarStopCommand;
+import command.commandobjects.CommandBase;
+import command.commandobjects.TopRotateCommand;
+import command.commandobjects.TopStopRotateCommand;
 import command.receiver.Car;
 import command.receiver.RotatingTop;
-import command.receiver.commandobjects.CarMoveCommand;
-import command.receiver.commandobjects.CarStopCommand;
-import command.receiver.commandobjects.CommandBase;
-import command.receiver.commandobjects.TopRotateCommand;
-import command.receiver.commandobjects.TopStopRotateCommand;
 
 public class RemoteControlTest {
     public void testRemoteControlButtonPressed() throws Exception {

@@ -1,4 +1,4 @@
-package command.receiver.commandobjects;
+package command.commandobjects;
 
 import command.receiver.Car;
 
